@@ -10,4 +10,5 @@ imblearn
 xgboost
 catboost
 pymongo
-
+from_root
+-e .
