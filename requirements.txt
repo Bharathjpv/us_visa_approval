@@ -9,5 +9,6 @@ scikit-learn
 imblearn
 xgboost
 catboost
+pymongo
 
 # -e .
