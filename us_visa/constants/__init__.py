@@ -1,4 +1,5 @@
 import os
+from datetime import date
 
 DATABASE_NAME = "US_VISA"
 
@@ -8,6 +9,10 @@ MONGODB_URL_KEY = "MONGODB_URL"
 
 PIPELINE_NAME: str = "usvisa"
 ARTIFACT_DIR: str = "artifact"
+
+TARGET_COLUMN = "case_status"
+CURRENT_YEAR = date.today().year
+PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 
 FILE_NAME: str = "usvisa.csv"
 TRAIN_FILE_NAME: str = "train.csv"
@@ -29,3 +34,10 @@ Data Validation realted contant start with DATA_VALIDATION VAR NAME
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
+
+"""
+Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
+"""
+DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
