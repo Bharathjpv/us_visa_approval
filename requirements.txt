@@ -14,4 +14,5 @@ from_root
 evidently
 dill
 PyYAML
+neuro_mf
 -e .
