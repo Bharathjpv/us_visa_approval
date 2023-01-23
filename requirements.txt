@@ -11,4 +11,7 @@ xgboost
 catboost
 pymongo
 from_root
+evidently
+dill
+PyYAML
 -e .
